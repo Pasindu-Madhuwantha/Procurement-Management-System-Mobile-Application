@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Product Management</string>
+    <string name="MOVIES">Products</string>
+    <string name="Nav_Drawer">Nav_Drawer</string>
+    <string name="Now_Showing">Now Showing</string>
+    <string name="Coming_Soon">Coming Soon</string>
+    <string name="nowShowing1">nowShowing1</string>
+    <string name="menu">menu</string>
+    <string name="swipe_up">swipe_up</string>
+    <string name="movie_image1">movie_image1</string>
+    <string name="MOVIES2">PRODUCTS</string>
+    <string name="word1">Uncharted</string>
+    <string name="word1_1">Action/Adventure</string>
+    <string name="word1_2">1h 56m</string>
+    <string name="word2">Death on the Nile</string>
+    <string name="word2_1">Mystery/Crime</string>
+    <string name="word2_2">2h 7m</string>
+    <string name="word3">Cyrano</string>
+    <string name="word3_1">Musical/Romance</string>
+    <string name="word3_2">2h 3m</string>
+    <string name="buytickets">BUY TICKETS</string>
+    <string name="poster1">poster1</string>
+    <string name="poster2">poster2</string>
+    <string name="poster3">poster3</string>
+    <string name="cword1">The Adam Project</string>
+    <string name="cword2">Morbius</string>
+    <string name="cword3">Jurassic World Dominion</string>
+    <string name="cword2_1">Horror</string>
+    <string name="cword1_3">1h46m</string>
+    <string name="back">back</string>
+
+    <string name="movie_description">Belgian sleuth Hercule Poirot\'s Egyptian vacation aboard a glamorous river steamer turns into a terrifying search for a murderer when a picture-perfect couple\'s idyllic honeymoon is tragically cut short.</string>
+    <string name="Movie_Details">Movie Details</string>
+    <string name="title_activity_main5">MainActivity5</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="seatpieck">Pick Your Seats</string>
+    <string name="time">Select Time</string>
+    <string name="time_slot1">10.30 A.M.</string>
+    <string name="scrren">Screen</string>
+    <string name="time_slot2">4.30 P.M.</string>
+    <string name="time_slot3">7.30 P.M.</string>
+
+    <string name="cont">Continue</string>
+    <string name="movieinsert">Product Insert</string>
+    <string name="moviename">Product Name</string>
+    <string name="input1">input1</string>
+    <string name="Movietype">Product Description</string>
+    <string name="moviehours">Supplier Name</string>
+    <string name="moiveimage">Movie Image</string>
+
+    <string name="pick_a_date">Pick a Date</string>
+    <string name="time_new">Pick a Time</string>
+    <string name="MovieStatus">Unit Price</string>
+    <string name="description">Quantity</string>
+    <string name="addbimovie">ADD</string>
+    <string name="reset">Reset</string>
+    <string name="MoiveList">Product List</string>
+    <string name="movie1">Uncharted</string>
+    <string name="moive2">Death On Nile</string>
+    <string name="movie3">Cyrano</string>
+    <string name="Edit">Edit</string>
+    <string name="delete">delete</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main9">Main9Activity</string>
+    <string name="title_activity_main10">Main10Activity</string>
+    <string name="price">Rs.1000/=</string>
+    <string name="pickatheater">Pick a Theater</string>
+    <string name="MovieImage">Movie Image</string>
+    <string name="coverimage">Cover Image</string>
+    <string name="chooseimage">Choose Product Image</string>
+    <string name="choosecoverimage">Choose Cover Image</string>
+    <string name="coverimage2">Cover Image2</string>
+    <string name="moivelist">Product List</string>
+    <string name="movienamenew">Movie Name</string>
+    <string name="movieupdate">Update Details</string>
+    <string name="update">Update</string>
+    <string name="Rs">Rs.</string>
+    <string name="Qty">Qty.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

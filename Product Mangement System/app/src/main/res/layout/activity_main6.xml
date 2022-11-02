@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181F22"
+    tools:context=".MainActivity5">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/calander"
+        android:ems="10"
+        android:hint="@string/pick_a_date"
+        android:inputType="date"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColorHint="#B39D7E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/drop"
+        android:ems="10"
+        android:hint="@string/pickatheater"
+        android:inputType="date"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColorHint="#B39D7E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/time"
+        android:ems="10"
+        android:hint="@string/time_new"
+        android:inputType="time"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColorHint="#B39D7E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#181F22"
+        android:contentDescription="@string/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_circle_left_24" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/seatpieck"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="159dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#6E5C5C"
+        android:text="@string/scrren"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="358dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <Button
+            android:id="@+id/button101"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A1FF9800"
+            android:letterSpacing="23"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:id="@+id/button102"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button103"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button104"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button105"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button106"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <Button
+            android:id="@+id/button107"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button108"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button109"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6E5C5C"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button110"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button112"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13">
+
+        <Button
+            android:id="@+id/button113"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button114"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button115"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button116"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button117"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button118"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <Button
+            android:id="@+id/button119"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button120"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button121"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button122"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6E5C5C"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button123"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/button124"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:letterSpacing="23"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="23"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="45dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A1FF9800"
+        android:text="@string/cont"
+        android:textColor="#263238"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="106dp"
+        android:layout_height="36dp"
+        android:background="#6E5C5C"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="107dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textColor="#E0E0E0"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
